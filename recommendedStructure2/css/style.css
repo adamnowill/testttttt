@@ -1,0 +1,60 @@
+h1 {
+    font-size: 3vw;
+    text-decoration: bold;
+    color: black;
+    text-align:center;
+}
+
+p {
+    font-size: 1.5vw;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 2vw;
+    color: black;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+img {
+    position: relative;
+    width: "1500";
+    height: "600";
+}
+
+button {
+    position: relative;
+    height: 50px;
+    width:200px;
+    margin: 10px auto;
+    color: blue;   
+}
+body {
+    background-color: whitesmoke;
+}
+ul {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+a {
+    position: relative;
+    display: block;
+    height: 50px;
+    width:200px;
+    margin: 10px auto;
+    color: blue;   
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  li {
+    display: inline;
+  }
