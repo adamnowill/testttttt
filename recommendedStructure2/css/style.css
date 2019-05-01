@@ -16,13 +16,13 @@ h2 {
     color: black;
     text-align: center;
 }
-h3 {
+h4 {
     text-align: center;
 }
-img {
+header img {
     position: relative;
-    width: "1500";
-    height: "600";
+    width: auto;
+    height: 80px;
 }
 
 button {
@@ -49,12 +49,179 @@ a {
     color: blue;   
   }
 
-  ul {
-    list-style-type: none;
+  body {
     margin: 0;
     padding: 0;
+    background: white;
   }
+   
+  .nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    line-height: 40px;
+    height: 70px;
+    border-bottom: 2px solid #444;
+  }
+   
+  .nav a {
+    float:right;
+    text-decoration: none;
+    color: #444;
+    display: block;
+    transition: .3s background-color;
+  }
+   
+  .nav a:hover {
+    background-color: white;
+  }
+   
+  .nav a.active {
+    background-color: #444;
+    color: #444;
+    cursor: default;
+  }
+
+  .nav img {
+      float:left;
+  }
+   
+  @media screen and (min-width: 200px) {
+    .nav li {
+      width: 140px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 0.6em;
+    }
  
   li {
     display: inline;
+  }
+
+  header {
+      width: 100%;
+      height:100px;
+  }
+}
+
+.iphone li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    line-height: 40px;
+    height: 30px;
+    border-bottom: 2px solid blue;
+}
+
+.iphonexxr li {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    line-height: 40px;
+    height: 30px;
+    border-bottom: 2px solid blue;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.iphonexxs li {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    line-height: 40px;
+    height: 30px;
+    border-bottom: 2px solid blue;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.ipadx li {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    line-height: 40px;
+    height: 30px;
+    border-bottom: 2px solid blue;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.airpodx li {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    line-height: 40px;
+    height: 30px;
+    border-bottom: 2px solid blue;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.homepodx li {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    line-height: 40px;
+    height: 30px;
+    border-bottom: 2px solid blue;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.retail li {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    line-height: 40px;
+    height: 30px;
+    border-bottom: 2px solid blue;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.naw ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .naw li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.5em;
+    line-height: 40px;
+    height: 70px;
+    border-bottom: 1px solid #444;
+  }
+   
+  .naw a {
+    float:right;
+    text-decoration: none;
+    color: black;
+    transition: .3s background-color;
+  }
+   
+  .naw a:hover {
+    background-color: white;
+  }
+   
+  .naw a.active {
+    background-color: #444;
+    color: #444;
+    cursor: default;
   }
